@@ -4,7 +4,7 @@
 
 本CSS为[Neets.cc](http://neets.cc/)的夜间模式风格，专门为了自己晚上不开灯时用起来方便而进行的改进。网站不少功能页面没有进去过，可能会有不完美的地方，如有发现希望得到各位的反馈。
 
-
+![首页](https://raw.githubusercontent.com/swsoyee/neets.cc-night-mode-CSS/master/index_screenshot.png)
 
 ## 安装地址和使用方法
 
