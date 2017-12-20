@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://neets.cc/") {
+@-moz-document url-prefix("https://neets.cc/"), url-prefix("http://neets.cc/") {
 /*首页*/
 /*
 背景色 191919
@@ -51,7 +51,7 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 } 
 }
 
-@-moz-document url("http://neets.cc/subcriberlist"), url("http://neets.cc/recyclelist"), url("http://neets.cc/watchedlist") {
+@-moz-document url("https://neets.cc/subcriberlist"), url("https://neets.cc/recyclelist"), url("https://neets.cc/watchedlist"),url("http://neets.cc/subcriberlist"), url("http://neets.cc/recyclelist"), url("http://neets.cc/watchedlist") {
 /*我的清单*/
 
 /*主列表*/
@@ -81,7 +81,7 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 }
 }
 
-@-moz-document url-prefix("http://neets.cc/detail/") {
+@-moz-document url-prefix("https://neets.cc/detail/"), url-prefix("http://neets.cc/detail/") {
 /*详细页面*/
 
 /*简介文字*/
@@ -111,14 +111,14 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 
 }
 
-@-moz-document url-prefix("http://neets.cc/createUrl") {
+@-moz-document url-prefix("https://neets.cc/createUrl"), url-prefix("http://neets.cc/createUrl") {
 /*添加链接*/
 .create_url_box .create_url_row, .create_url_box .create_url_row .c_row_r .input_check  {
 	color: #999999;
 }
 }
 
-@-moz-document url-prefix("http://neets.cc/search") {
+@-moz-document url-prefix("https://neets.cc/search"), url-prefix("http://neets.cc/search") {
 /*搜索页面*/
 
 .search_main .search_li, .search_main .themes_list_cen, .search_ban {
