@@ -22,23 +22,23 @@ html {
 }
 
 /*首页推荐大框底色*/
-.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row {
+.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row,.lot_videos_fff .lot_videos_container,.lot_videos_index .lot_videos_container .lot_video_li.lot_video_fff {
 	background: #333333;
 }
 
 /*框顶部文字*/
-.diplayBox .sub_title, .my_center_main .my_center_boxL .sub_title, .my_center_main .my_center_boxR .video_box .sub_title {
+.diplayBox .sub_title, .my_center_main .my_center_boxL .sub_title, .my_center_main .my_center_boxR .video_box .sub_title, .lot_videos_index .lot_videos_header {
 	color: #666666;
 	background: #333333;
 }
 
 /*推荐里的更多按钮底色*/
-.diplayBox .sub_box .sub_li.sub_more {
+.diplayBox .sub_box .sub_li.sub_more,.lot_videos_index .lot_videos_container .col_more .col_more_con {
 	background: #4C4C4C;
 }
 
 /*框内标题色*/
-.diplayBox .sub_box .sub_li .sub_txt .sub_p1 a, .video_list .video_li_box .v_box .v_box1 a {
+.diplayBox .sub_box .sub_li .sub_txt .sub_p1 a, .video_list .video_li_box .v_box .v_box1 a,.lot_videos_index .lot_videos_container .lot_video_li .lot_video_rg .lot_video_title a {
     color: #5AB7AF;
 }
 
@@ -48,10 +48,10 @@ a:hover {
 }
 a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 	color: #5AB7AF;
-} 
+}
 }
 
-@-moz-document url("https://neets.cc/subcriberlist"), url("https://neets.cc/recyclelist"), url("https://neets.cc/watchedlist"),url("http://neets.cc/subcriberlist"), url("http://neets.cc/recyclelist"), url("http://neets.cc/watchedlist") {
+@-moz-document url("https://neets.cc/subcriberlist"), url("https://neets.cc/recyclelist"), url("https://neets.cc/watchedlist"), url("http://neets.cc/subcriberlist"), url("http://neets.cc/recyclelist"), url("http://neets.cc/watchedlist") {
 /*我的清单*/
 
 /*主列表*/
@@ -107,8 +107,6 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 .compilation_box .compilation_theme .theme_tit a.a_tit, .my_center_main .my_center_boxR .video_box .sub_li .sub_txt .sub_p1 a {
 	color: #5AB7AF;
 }
-
-
 }
 
 @-moz-document url-prefix("https://neets.cc/createUrl"), url-prefix("http://neets.cc/createUrl") {
