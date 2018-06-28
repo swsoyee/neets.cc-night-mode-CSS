@@ -22,7 +22,7 @@ html {
 }
 
 /*首页推荐大框底色*/
-.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row,.lot_videos_fff .lot_videos_container,.lot_videos_index .lot_videos_container .lot_video_li.lot_video_fff {
+.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row,.lot_videos_fff .lot_videos_container,.lot_videos_index .lot_videos_container .lot_video_li.lot_video_fff, .ut_con_main .ut_cm_right .ut_cm_tr, #updateTime_con .ut_con_main .ut_cm_right,#updateTime_con .ut_con_main .ut_cm_right .ut_cm_tab {
 	background: #333333;
 }
 
@@ -38,7 +38,7 @@ html {
 }
 
 /*框内标题色*/
-.diplayBox .sub_box .sub_li .sub_txt .sub_p1 a, .video_list .video_li_box .v_box .v_box1 a,.lot_videos_index .lot_videos_container .lot_video_li .lot_video_rg .lot_video_title a {
+.diplayBox .sub_box .sub_li .sub_txt .sub_p1 a, .video_list .video_li_box .v_box .v_box1 a,.lot_videos_index .lot_videos_container .lot_video_li .lot_video_rg .lot_video_title a, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box1 a {
     color: #5AB7AF;
 }
 
@@ -48,6 +48,19 @@ a:hover {
 }
 a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 	color: #5AB7AF;
+}
+
+/*剧目时间表左侧文字颜色*/
+#updateTime_con .ut_con_main .ut_cm_left li b, #updateTime_con .ut_con_main .ut_cm_left .ut_nav {
+    color: #bbb;
+}
+
+#updateTime_con .ut_con_main .ut_cm_left li.active b {
+    color: #E05E53;
+}
+
+#updateTime_con .ut_con_main .ut_cm_right .ut_cm_box2, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box1, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box3 {
+    color: #8e8e8e;
 }
 }
 
