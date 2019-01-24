@@ -18,16 +18,16 @@ html {
 
 /*大背景*/
 .container, body {
-    background: #191919;
+    background: #222;
 }
 
 /*首页推荐大框底色*/
-.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row,.lot_videos_fff .lot_videos_container,.lot_videos_index .lot_videos_container .lot_video_li.lot_video_fff, .ut_con_main .ut_cm_right .ut_cm_tr, #updateTime_con .ut_con_main .ut_cm_right,#updateTime_con .ut_con_main .ut_cm_right .ut_cm_tab {
+.diplayBox, .video_list .video_li_box, .category_nav, .my_center_header .my_header_bot, .detail_box .detail_box_bot, .my_center_main .my_center_boxR .ervm2_cen, .my_center_main .my_center_boxR .video_box, .my_center_main .my_center_boxL .my_row,.lot_videos_fff .lot_videos_container,.lot_videos_index .lot_videos_container .lot_video_li.lot_video_fff, .ut_con_main .ut_cm_right .ut_cm_tr, #updateTime_con .ut_con_main .ut_cm_right,#updateTime_con .ut_con_main .ut_cm_right .ut_cm_tab, .tiemTableCon, .topics_hot, .home_art_box {
 	background: #333333;
 }
 
 /*框顶部文字*/
-.diplayBox .sub_title, .my_center_main .my_center_boxL .sub_title, .my_center_main .my_center_boxR .video_box .sub_title, .lot_videos_index .lot_videos_header {
+.diplayBox .sub_title, .my_center_main .my_center_boxL .sub_title, .my_center_main .my_center_boxR .video_box .sub_title, .lot_videos_index .lot_videos_header,.topics_title h4, .home_art_box h1 {
 	color: #666666;
 	background: #333333;
 }
@@ -46,7 +46,7 @@ html {
 a:hover {
 	color: #E05E53 !important;
 }
-a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
+a:visited, .my_center_main .my_center_boxL .sub_title .sub_a,.timeTableBox_txt .sub_p1 a {
 	color: #5AB7AF;
 }
 
@@ -59,8 +59,18 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
     color: #E05E53;
 }
 
-#updateTime_con .ut_con_main .ut_cm_right .ut_cm_box2, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box1, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box3 {
+#updateTime_con .ut_con_main .ut_cm_right .ut_cm_box2, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box1, #updateTime_con .ut_con_main .ut_cm_right .ut_cm_box3, .home_art_li .li3 p,.topics_hot .topics_hot_ul li a {
     color: #8e8e8e;
+}
+
+/* tag背景颜色*/
+.topics_hot .topics_hot_theme_ul li {
+    background: #1f1f1f;
+}
+
+/* 不显示下载app的div*/
+#downLoadIcon {
+    display: none;
 }
 }
 
@@ -98,18 +108,18 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 /*详细页面*/
 
 /*简介文字*/
-.compilation_box, .my_center_main .my_center_boxR .video_box, .introduce_box {
+.compilation_box, .my_center_main .my_center_boxR .video_box, .introduce_box, .new_series_con {
     background: #333333;
 }
 
-.compilation_box .tit, .introduce_box .tit, .introduce_box .introduce_cen p, .detail_box .detail_box_bot .detail_row, .detail_box .detail_box_bot .detail_row_l {
+.compilation_box .tit, .introduce_box .tit, .introduce_box .introduce_cen p, .detail_box .detail_box_bot .detail_row, .detail_box .detail_box_bot .detail_row_l, .compilation_box .compilation_theme .theme_tit .a_tit, .current_video .tit {
     color: #999999;
 }
-.compilation_box .compilation_cen li .tits, .introduce_box .introduce_cen .p1 {
+.compilation_box .compilation_cen li .tits, .introduce_box .introduce_cen .p1, .state_btns .state_div span {
     color: #666666;
 }
 
-.compilation_box .compilation_cen li.bot a, .compilation_box .compilation_theme .theme_tit, .compilation_box .theme_total a {
+.compilation_box .compilation_cen li.bot a, .compilation_box .compilation_theme .theme_tit, .compilation_box .theme_total a, .current_video .tit, .new_com_box, .compilation_box .theme_total2 a {
 	background: #4C4C4C    
 }
 
@@ -143,5 +153,25 @@ a:visited, .my_center_main .my_center_boxL .sub_title .sub_a {
 
 .search_main .search_li .search_li_r a {
     color: #5AB7AF;
+}
+}
+
+@-moz-document url-prefix("https://neets.cc/topics") {
+.topics_con_main, .topics_con_art, .topics_search p, .customBootstrap {
+    background-color: #333333;
+}
+
+.topics_li_t span {
+    color: #666666;
+}
+
+
+
+.topics_con_nav, .topic_more {
+    background-color: #4C4C4C;
+}
+
+.topics_nav span, .topic_more {
+    color: #bbb;
 }
 }
